@@ -1,0 +1,12 @@
+:root { color-scheme: light dark; --accent: #8b6ff0; --text: #1f1d2b; --muted: #6b6880; --bg: #fbfaff; --card: #ffffff; --line: #e8e4f7; }
+@media (prefers-color-scheme: dark) { :root { --text: #f1eff8; --muted: #a9a5bd; --bg: #16141f; --card: #201d2c; --line: #2f2b40; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.75 ui-rounded, -apple-system, "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.8rem; margin: 0 0 4px; }
+h2 { font-size: 1.2rem; margin: 32px 0 8px; color: var(--accent); }
+.meta { color: var(--muted); font-size: .9rem; }
+nav { display: flex; gap: 16px; margin-bottom: 24px; font-size: .9rem; }
+a { color: var(--accent); }
+section.lang { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 8px 24px 24px; margin-top: 24px; }
+ul { padding-left: 1.2em; }
